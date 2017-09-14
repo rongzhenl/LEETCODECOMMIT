@@ -1,0 +1,13 @@
+
+把本地库与远程库关联
+
+git remote add origin 你的远程库地址
+
+第一次推送（提交）代码时：
+git push -u origin master 
+
+第一次推送后，直接使用该命令即可推送修改
+
+git push origin master 
+
+使用如下命令可以在本地新建一个temp分支，并将远程origin仓库的master分支代码下载到本地temp分支git fetch origin master:temp  
